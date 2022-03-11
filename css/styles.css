@@ -1,0 +1,8 @@
+.intro {
+background-image: url("/images/h_img.jpg");
+background-repeat: no-repeat;
+background-image: cover;
+text-anchor:white;
+padding-bottom: 80px;
+padding-top: 80px;
+}
