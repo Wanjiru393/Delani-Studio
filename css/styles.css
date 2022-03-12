@@ -5,4 +5,11 @@ background-image: cover;
 text-anchor:white;
 padding-bottom: 80px;
 padding-top: 80px;
+color: white;
+}
+.page {
+background-image:url("/images/s_image.jpg");
+padding-top: 80px;
+padding-bottom: 80px;
+color: white;
 }
