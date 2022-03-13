@@ -1,11 +1,10 @@
+$(document).ready(function(){
+  $(".road").hide();
+$(".croseover").hover(function(){
+    $(this).find(".road").toggle(400);
+});
 
-// $(document).ready(function(){
-//   $(".road").hide();
-// $(".croseover").hover(function(){
-//     $(this).find(".road").toggle(400);
-// });
-
-// });
+});
 $(".click1").click(function(){
     $(".hide1").slideToggle(1000);
     $(".show1").slideToggle(1200);
@@ -20,15 +19,16 @@ $(".click1").click(function(){
     $(".hide3").slideToggle(1000);
     $(".show3").slideToggle(1200);
   });
-$(document).ready(function(){
-    $('#submission').submit(function(event){
-        var display1 = $('input:name').val();
-        var display2 = $('input#email').val();
-        if(display1 && display2 != ''){
-            alert ('Thank you ' + display1 + 'for your subscription');
-        }else {
-            alert ('Invalid input');
-        }
-        event.preventDefault();
-    })
-});
+  $("button").click(function(event) {
+       let client = document.getElementById('nameDetail').value;
+       alert('Thanks ' + ' we have received your message successful. ' + '!');
+       event.preventDefault();
+   });
+  //  *************RESET FORM*****************
+   $("button").on('click', function(){
+     $('form').each(function(){
+       this.reset();
+     });
+ });
+  
+
