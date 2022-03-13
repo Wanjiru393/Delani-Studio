@@ -17,7 +17,7 @@
     <P>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT.</P>
         <img src="/images/mouse_click.png">
     </div>
-    <div class="about d-flex flex-column align-items-center align-center">
+    <div class="about d-flex flex-column align-items-center align-center justify-content-center">
     <h2>About Us</h2>
 
     <p>When you work with us,you are part of a team of committed collaborators.All aspects of our software development process are integrated,interactive and agile.</p>
@@ -34,10 +34,10 @@
     <p>Based on your requirements, we can provide a complete offering or just the pieces you need.</p>   
     </div>
 
-    <div class="container d-flex flex-column align-items-center align-center">
+    <div class="container d-flex flex-column justify-content-center">
     <div class="row">
     <div class="col-md-12">
-    <h4>WHAT WE DO</h4>
+    <h4 class="text-center con">WHAT WE DO</h4>
     </div>
     <div class="click1">
         <img class="hide1" src="/images/design_icon.png">
@@ -50,19 +50,19 @@
     </div>
     <div class="click2">
         <img class="hide2" src="/images/dev_icon.png">
-    <h5>DEVELOPMENT</h5>
+    <h6>DEVELOPMENT</h6>
     <P class="show2">
     All engineers are fluent in the latest enterprise,mobile and web development technologies.</P>
     <p class="show2">They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
     </div>
     <div class="click3">
         <img class="hide3" src="/images/product_icon.png">
-    <h5>PRODUCT MANAGEMENT</h5>
+    <h6>PRODUCT MANAGEMENT</h6>
     <p class="show3">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.</p>
     </div>
     </div>
     </div>
-    <h5>PORTFOLIO</h5>
+    <h5 class="text-center con">PORTFOLIO</h5>
     <!-- check on header tags -->    
     <table>
         <tr>
@@ -78,33 +78,38 @@
             <td><img src="/images/work8.jpg" width="200" height="200"></td>
         </tr>
     </table>
-<div class="contact d-flex flex column align-items-center align-center">
-    
-<h5>CONTACT US</h5>
+<div class="container-fluid" id="contact">
 
-<form>
-  <label for="name">Name:</label><br>
-  <input type="text" id="name" name="name"><br>
-  <label for="email">Email Address:</label><br>
-  <input type="text" id="email" name="email">
-  <label for="message">Your message here:</label><br>
-  <input type="text" id="message" name="message">
-  
-</form>
+<h5 class="text-center con">CONTACT US</h5>
+<div class="row d-flex justify-content-center">
+    <form>
+        <input type="text" id="name" name="name" placeholder="Name..."><br>
+    </form>
+    <form>
+        <input type="text" id="email" name="email" placeholder="Email...">   
+    </form>
+    <form>
+        <div class="col text-center" cols="50" rows="50">
+            <input type="text" id="message" name="message" placeholder="Your message here...">
 
-
-
-
+        </div>
+        
+    </form>
+</div>
+</div>
+<div>
 
 </div>
-    
 
 
 
 
-
-
-
+<footer>
+    <div>
+        delani studios<br>
+        2019
+    </div>
+</footer>
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script src="./js/script.js"></script>
 </body>
