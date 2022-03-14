@@ -21,10 +21,10 @@ $(".click1").click(function(){
   });
   $("button").click(function(event) {
        let client = document.getElementById('nameDetail').value;
-       alert('Thanks ' + ' we have received your message successful. ' + '!');
+       alert('Thankyou, ' + ' we have received your message successfully ' + '!');
        event.preventDefault();
    });
-  //  *************RESET FORM*****************
+  //  ******RELOAD*******
    $("button").on('click', function(){
      $('form').each(function(){
        this.reset();
